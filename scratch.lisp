@@ -7,3 +7,6 @@
 
 (defun one-of (set) (list (random-elt set)))
 (defun random-elt (choices) (elt choices (random (length choices))))
+
+
+
